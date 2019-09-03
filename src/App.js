@@ -1,4 +1,6 @@
 import React from 'react';
+import List from './List';
+import './App-styles.css';
 //Import List component
 
 function App(props) {

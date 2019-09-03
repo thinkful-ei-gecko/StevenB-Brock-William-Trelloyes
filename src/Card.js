@@ -1,11 +1,12 @@
 import React from 'react';
-import STORE from './store';
+import './Card-styles.css';
 
-function Card (title, content) {
+function Card (props) {
     return (
-        <div>
-            <h3>{STORE.title}</h3>
-            <p>{STORE.content}</p>
+        <div className='Card'>
+            <button type="button">delete</button>
+            <h3>{props.title}</h3>
+            <p>{props.content}</p>
         </div>
     );
 }
