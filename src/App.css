@@ -3,3 +3,15 @@
   margin: 40px;
   min-height: calc(100vh - 80px);
 }
+
+.left {
+  flex: 2;
+  background-color: darkslategray;
+  color: azure;
+}
+
+.right {
+  flex: 1;
+  background-color: wheat;
+  color: firebrick;
+}
